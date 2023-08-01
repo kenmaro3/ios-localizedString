@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  LocalizedString
+
+  Created by Kentaro Mihara on 2023/08/01.
+  
+*/
+
+
+"GreetingTitle" = "ハロー、ワールド！！";
+"GreetingSubTitle" = "サブタイトル";

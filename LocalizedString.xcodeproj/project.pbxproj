@@ -11,6 +11,8 @@
 		0AAEC3FD2A789F3F00C8844E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAEC3FC2A789F3F00C8844E /* ContentView.swift */; };
 		0AAEC3FF2A789F4100C8844E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AAEC3FE2A789F4100C8844E /* Assets.xcassets */; };
 		0AAEC4022A789F4100C8844E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AAEC4012A789F4100C8844E /* Preview Assets.xcassets */; };
+		0AAEC40C2A789FF800C8844E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AAEC40E2A789FF800C8844E /* Localizable.strings */; };
+		0AAEC4122A78A04800C8844E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAEC4112A78A04800C8844E /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		0AAEC3FC2A789F3F00C8844E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0AAEC3FE2A789F4100C8844E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AAEC4012A789F4100C8844E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0AAEC40D2A789FF800C8844E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0AAEC40F2A78A00100C8844E /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0AAEC4112A78A04800C8844E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +56,12 @@
 		0AAEC3F92A789F3F00C8844E /* LocalizedString */ = {
 			isa = PBXGroup;
 			children = (
+				0AAEC4102A78A03F00C8844E /* View */,
 				0AAEC3FA2A789F3F00C8844E /* LocalizedStringApp.swift */,
 				0AAEC3FC2A789F3F00C8844E /* ContentView.swift */,
 				0AAEC3FE2A789F4100C8844E /* Assets.xcassets */,
 				0AAEC4002A789F4100C8844E /* Preview Content */,
+				0AAEC40E2A789FF800C8844E /* Localizable.strings */,
 			);
 			path = LocalizedString;
 			sourceTree = "<group>";
@@ -65,6 +72,14 @@
 				0AAEC4012A789F4100C8844E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0AAEC4102A78A03F00C8844E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0AAEC4112A78A04800C8844E /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +124,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 0AAEC3EE2A789F3F00C8844E;
 			productRefGroup = 0AAEC3F82A789F3F00C8844E /* Products */;
@@ -126,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AAEC4022A789F4100C8844E /* Preview Assets.xcassets in Resources */,
+				0AAEC40C2A789FF800C8844E /* Localizable.strings in Resources */,
 				0AAEC3FF2A789F4100C8844E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,11 +155,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AAEC3FD2A789F3F00C8844E /* ContentView.swift in Sources */,
+				0AAEC4122A78A04800C8844E /* Home.swift in Sources */,
 				0AAEC3FB2A789F3F00C8844E /* LocalizedStringApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0AAEC40E2A789FF800C8844E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AAEC40D2A789FF800C8844E /* en */,
+				0AAEC40F2A78A00100C8844E /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0AAEC4032A789F4100C8844E /* Debug */ = {
